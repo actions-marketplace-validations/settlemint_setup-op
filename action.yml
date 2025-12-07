@@ -7,10 +7,10 @@ inputs:
   version:
     description: Version of the 1Password CLI to install
     required: false
-    default: 2.18.0
+    default: 2.29.0
   service-account-token:
     description: The 1Password service account token
     required: true
 runs:
-  using: node16
+  using: node20
   main: dist/index.js
